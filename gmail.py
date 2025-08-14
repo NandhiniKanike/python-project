@@ -8,8 +8,7 @@ if len(email)>=6:
                     if i==i.isspace():
                         k=1
                     elif i.isalpha():
-                        continue
-                        
+                        continue                        
                     elif i.isdigit():
                         continue
                     elif i=="_" or i=="." or i=="@":
